@@ -1,0 +1,9 @@
+title: Exp Multiplier
+originalAuthor: Lux
+description: An exp multiplier mod for Dream Drop Distance. Hold Left on D-Pad for 3 seconds on title screen to change mult. Multipliers are also loaded from the save file.
+assets:
+#Lua Script
+- name: scripts/ExpMult.lua
+  method: copy
+  source:
+  - name: ExpMult.lua
