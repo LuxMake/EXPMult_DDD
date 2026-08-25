@@ -67,7 +67,7 @@ function _OnFrame()
 				_dPadHeld = _dPadHeld + 1
 				if _dPadHeld > _holdTimer then --Held for long enough; increment multiplier
 					EXP_MULT = EXP_MULT+1
-					if EXP_MULT > 10 then --Cap multiplier at 10
+					if EXP_MULT > 20 then --Cap multiplier at 20
 						EXP_MULT = 1
 					end
 					ConsolePrint("Exp Multiplier set to "..tostring(EXP_MULT).."x")
